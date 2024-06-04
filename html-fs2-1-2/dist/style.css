@@ -3,15 +3,13 @@
 	border-bottom: 1px solid #efefef;
   padding: 50px 40px 50px 40px;
   width: 320px;
-  flex-basis: 33%;
+  box-sizing: border-box;
 }
 
 .news {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  flex-flow: row nowrap;
 }
 
 .card-date {
